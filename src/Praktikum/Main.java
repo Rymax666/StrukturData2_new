@@ -27,8 +27,8 @@ public class Main {
         System.out.println("\n2. Hapus Element Pada Index 2 dan 4 : ");
         System.out.println(namaMahasiswa);
         System.out.println("\n3. Cari Posisi Lala dan Gracia : ");
-        System.out.println(namaMahasiswa.get(1) + "Ada di index ke " + namaMahasiswa.indexOf("Lala"));
-        System.out.println(namaMahasiswa.get(3) + "Ada di index ke -" + namaMahasiswa.indexOf("Gracia"));
+        System.out.println("Lala Ada di index ke " + namaMahasiswa.indexOf("Lala"));
+        System.out.println("Gracia Ada di index ke -" + namaMahasiswa.indexOf("Gracia"));
 
         System.out.println("---------->>>>>>>>>>>>>>>>>>>O<<<<<<<<<<<<<<<<<----------");
 
